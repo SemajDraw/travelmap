@@ -21,7 +21,7 @@ export const Map = () => {
     return (
         <MapContainer center={center} zoom={13} scrollWheelZoom={false} style={{ height: '100vh', width: '80vw', borderRadius: '10px' }} >
             <TileLayer
-                url={mapLayerUrls.street}
+                url={mapLayerUrls.satelite}
                 attribution='<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
             />
             <Marker position={[53.350140, -6.266155]}>

@@ -10,13 +10,17 @@
     "@chakra-ui/react": "2.0.2",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
+    "axios": "^0.27.2",
     "framer-motion": "6.3.3",
     "leaflet": "^1.8.0",
     "leaflet-defaulticon-compatibility": "^0.1.1",
+    "loaders.css": "^0.1.2",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-leaflet": "^4.0.0"
+    "react-leaflet": "^4.0.0",
+    "react-loaders": "^3.0.1",
+    "swr": "^1.3.0"
   },
   "devDependencies": {
     "@types/leaflet": "^1.7.10",

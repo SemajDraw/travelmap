@@ -13,5 +13,5 @@ export const Hero = ({ title }: { title: string }) => (
 )
 
 Hero.defaultProps = {
-  title: 'Travel Photo Map',
+  title: 'Travel Photos Map',
 }
