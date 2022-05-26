@@ -33,7 +33,10 @@ const theme = extendTheme({
   colors: {
     black: '#16161D',
   },
-  fonts,
+  fonts: {
+    heading: `'Great Vibes', sans-serif`,
+    body: `sans-serif`,
+  },
   breakpoints,
 })
 

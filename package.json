@@ -2,6 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start"
   },
@@ -10,23 +11,29 @@
     "@chakra-ui/react": "2.0.2",
     "@emotion/react": "11.9.0",
     "@emotion/styled": "11.8.1",
-    "axios": "^0.27.2",
+    "@fontsource/great-vibes": "4.5.8",
+    "axios": "0.27.2",
     "framer-motion": "6.3.3",
-    "leaflet": "^1.8.0",
-    "leaflet-defaulticon-compatibility": "^0.1.1",
-    "loaders.css": "^0.1.2",
+    "googleapis": "^100.0.0",
+    "googlephotos": "^0.3.5",
+    "leaflet": "1.8.0",
+    "leaflet-defaulticon-compatibility": "0.1.1",
+    "loaders.css": "0.1.2",
     "next": "12.1.6",
+    "next-auth": "4.3.4",
     "react": "18.1.0",
+    "react-alert": "7.0.3",
     "react-dom": "18.1.0",
-    "react-leaflet": "^4.0.0",
-    "react-loaders": "^3.0.1",
-    "swr": "^1.3.0"
+    "react-leaflet": "4.0.0",
+    "react-loaders": "3.0.1",
+    "swr": "1.3.0"
   },
   "devDependencies": {
     "@types/leaflet": "^1.7.10",
     "@types/node": "16.0.0",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.4",
+    "sass": "^1.52.1",
     "typescript": "4.3.2"
   }
 }

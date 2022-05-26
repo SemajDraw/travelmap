@@ -5,21 +5,24 @@ import { Main } from '../components/Main'
 import { DarkModeSwitch } from '../components/DarkModeSwitch'
 import { Footer } from '../components/Footer'
 import { MapContainer } from '../components/MapContainer'
+import { Navbar } from '../components/Navbar';
 
 const Index = () => {
 
   return (
-    <Container height="100vh">
-      <Hero />
-      <Main>
-        <MapContainer />
-      </Main>
+    <>
+      <Navbar />
+      <Container height="100vh">
+        <Hero />
+        <Main>
+          <MapContainer />
+        </Main>
 
-      <DarkModeSwitch />
-      <Footer>
-        <Text>James ❤️ Aila</Text>
-      </Footer>
-    </Container>
+        <Footer>
+          <Text>James ❤️ Aila</Text>
+        </Footer>
+      </Container>
+    </>
   )
 }
 
